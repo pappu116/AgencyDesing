@@ -1,0 +1,63 @@
+.about {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.aboutBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin: 10%;
+  padding-left: 15%;
+}
+.image {
+  flex: 2;
+  position: relative;
+}
+.image > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+  position: relative;
+}
+.phone {
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  background-color: #44d63b;
+  padding: 10px;
+  border-radius: 50px;
+  justify-content: center;
+  align-self: center;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  z-index: 999;
+}
+.aboutText {
+  flex: 3;
+}
+.textArea {
+  width: 65%;
+  margin-left: 20%;
+  line-height: 1.5rem;
+}
+.textArea h1 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.textArea h5 {
+  padding: 1rem 0;
+}
+.aboutNumber {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.aboutNumber span {
+  font-weight: bold;
+  font-size: 20px;
+}

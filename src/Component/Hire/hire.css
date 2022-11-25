@@ -1,0 +1,51 @@
+.hire {
+  padding: 2rem 5rem;
+}
+.hireBox {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.hireImgArea {
+  flex: 2;
+}
+.hireImage {
+  position: relative;
+  margin-left: 5rem;
+}
+.hireImage > img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.hireImage .imageText {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #44d63b;
+  width: 300px;
+  height: 8rem;
+  border-radius: 0px 0px 25px 25px;
+  color: white;
+}
+.imageText > h4 {
+  padding: 1rem;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.hireText {
+  flex: 3;
+}
+.HtextArea {
+  width: 65%;
+  margin-left: 20%;
+  line-height: 1.5rem;
+}
+.HtextArea > h1 {
+  font-size: 45px;
+  line-height: 1.2;
+  padding: 2rem 0;
+}

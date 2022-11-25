@@ -1,0 +1,40 @@
+.work {
+  background-color: #f2f2f2;
+  padding: 2rem 5rem;
+}
+
+.workBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.projectArea {
+  flex: 2;
+  padding-top: 2rem;
+  text-align: justify;
+}
+
+.projectCard {
+  width: 30%;
+  background-color: #fff;
+  text-align: center;
+  line-height: 2rem;
+  height: 200px;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  border-radius: 25px;
+}
+
+.light {
+  background-color: #44d63b;
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+.clientArea {
+  flex: 2;
+  padding-top: 8rem;
+  text-align: justify;
+}
+.clientArea > p {
+  width: 75%;
+}

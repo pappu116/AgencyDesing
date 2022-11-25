@@ -1,0 +1,35 @@
+/* Brand Css */
+.brandBox > h1 {
+  padding: 0 0 2rem;
+}
+.brandLogo {
+  display: flex;
+  padding-left: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.brandLogo > img {
+  width: 100px;
+  height: 100px;
+}
+
+/* footer css */
+.footer {
+  background-color: #333333;
+  color: white;
+  padding: 2rem 5rem;
+}
+.footerBox {
+  text-align: center;
+}
+.flist {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 0rem;
+  align-items: center;
+  gap: 1rem;
+}
+.flist > li,
+.flist > li > a {
+  color: #44d63b;
+}

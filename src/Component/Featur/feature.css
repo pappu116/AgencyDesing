@@ -1,0 +1,38 @@
+.feature {
+  padding: 2rem 5rem;
+  text-align: center;
+}
+.feature > p {
+  width: 50%;
+}
+.featureImage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.featureImage > img {
+  flex: 1;
+  max-width: 200px;
+  height: 220px;
+  object-fit: cover;
+}
+.feature > p {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.feature .read-btn {
+  border: none;
+}
+.feature .read-btn {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #44d63b;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}

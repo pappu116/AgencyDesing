@@ -1,0 +1,74 @@
+.price,
+.brand {
+  background-color: #f2f2f2;
+  padding: 5rem 5rem 2rem 5rem;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.priceBox {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15rem;
+}
+
+.freePlan,
+.paidPlan {
+  flex: 3;
+}
+.paidPlanCard,
+.freePlanCard {
+  background-color: #fff;
+  text-align: center;
+  max-height: max-content;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  border-radius: 25px;
+  position: relative;
+}
+.planLogo,
+.freeLogo {
+  background-color: #44d63b;
+  padding: 1.5rem;
+  position: absolute;
+  top: -3rem;
+  left: 35%;
+  border-radius: 15px;
+}
+.freeLogo {
+  background-color: #000000;
+}
+.freePlanCard > h1,
+.paidPlanCard > h1 {
+  padding: 2rem 0 0rem;
+  font-size: 48px;
+  color: #44d63b;
+}
+.paidPlanCard > h1 {
+  color: #000000;
+}
+.freePlanCard > p,
+.paidPlanCard > p {
+  padding: 1rem 0;
+  font-size: 20px;
+}
+ul > li {
+  text-align: center;
+  line-height: 1.8;
+}
+.get-btn {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #44d63b;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}

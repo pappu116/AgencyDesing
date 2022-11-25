@@ -1,0 +1,56 @@
+.contact {
+  padding: 3rem 5rem;
+}
+.contactBox {
+  display: flex;
+  gap: 4rem;
+}
+.contactInput {
+  flex: 3;
+}
+.contactInput {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.contactText {
+  flex: 3;
+  display: flex;
+  align-items: end;
+}
+.inputArea {
+  width: 500px;
+  background-color: #f2f2f2;
+  padding: 2rem;
+}
+.inputGrup {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.inputGrup > input,
+.inputGrup > textarea {
+  padding: 0.5rem;
+  width: 100%;
+  margin: 1rem;
+  border: none;
+  border-radius: 15px;
+}
+.inputGrup > input:focus,
+.inputGrup > textarea:focus {
+  outline: none;
+}
+.btngrup {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.btngrup .get-btn {
+  width: 40%;
+  margin: 1rem;
+}
+
+/* footer css */
+.footer {
+  background-color: #333333;
+}
